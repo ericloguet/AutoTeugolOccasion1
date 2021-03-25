@@ -11,7 +11,7 @@ class ThemeBD extends Theme {
     }
 
     public function getTheme(){
-        /*$query = "select * from bp_theme";
+        $query = "select * from ti_marque order by id_marque";
         $_resultset = $this->_db->prepare($query);
         $_resultset->execute();
 
@@ -19,6 +19,6 @@ class ThemeBD extends Theme {
             $_data[] = new Theme($d);
         }
         //var_dump($_data);
-        return $_data;*/
+        return $_data;
     }
 }

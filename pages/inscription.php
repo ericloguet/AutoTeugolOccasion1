@@ -104,8 +104,12 @@
                 </form>
                 </p>
             </div>
-            <div class="card-footer text-muted text-center">
-                2 days ago
+            <div class="card text-muted bg-warning text-center ">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./admin/images/hp.png" alt="" width="5%" height="5%">
+                    </a>
+                </div>
             </div>
         </div>
     </div>

@@ -20,49 +20,53 @@
             <div class="card-header">
                 <div class="card-dark bg-light bg-gradient">
                     <nav class="nav nav-pills nav-fill">
-                        <h5 class=" nav-link text-dark">Auto Teugol Occasion</h5>
+                        <h5 class=" display-6 nav-link text-dark bg-warning">Auto Teugol Occasion</h5>
                     </nav>
                 </div>
             </div>
-            <div class="card-body">
-                <h5 class="card-title text-warning text-center">Services</h5>
+            <div class="card-body" id="bordure">
                 <p class="card-text">
-                    Le label Garantie VDC Car : VDC Care
-                    Toutes nos voitures sont vérifiées sur 100 points de contrôle. Pour nous, c’est une question de fierté; pour vous, c’est la garantie d’un achat en toute confiance.
-
-                    VDC Car, c’est aussi la garantie d’un service de qualité avant et après la vente. Nous nous engageons à vos côtés pour trouver le véhicule, la solution de financement et la couverture d’assurance qui correspondent à vos attentes et à vos besoins.
-
-                    Conditions de garantie
-                    VDC Car offre trois niveaux de garantie selon la voiture, valable pour chaque marque de voiture :
+                <h2 class=" display-6 nav-link text-danger text-center ">Le label Garantie ATO : <strong>A</strong>uto <strong>T</strong>eugol <strong>O</strong>ccasion</h2>
+                Toutes nos voitures sont vérifiées sur 100 points de contrôle. Pour nous, c’est une question de fierté; pour vous, c’est la garantie d’un achat en toute confiance.</br>
+                    Auto Teugol Occasion, c’est aussi la garantie d’un service de qualité avant et après la vente. Nous nous engageons à vos côtés pour trouver le véhicule, la solution de financement et la couverture d’assurance qui correspondent à vos attentes et à vos besoins.
 
 
+                <section id="para1">
+                <h5 class=" nav-link text-primary text-center ">Conditions de garantie</h5>
+                <p>Auto Teugol Occasion offre trois niveaux de garantie selon la voiture, valable pour chaque marque de voiture :</p>
+                <strong>GOLD : garantie 24 mois</strong></br>Véhicules d'occasion toutes marques de moins de 2 ans et moins de 30.000 km</br>
+                <strong>SILVER : garantie 12 mois</strong></br>véhicules de 2 à 7 ans - 150.000 km*</br>
+                <strong>BRONZE : garantie 12 mois</strong></br>véhicules jusqu'à 10 ans - 150.000 km*</br>* Voir conditions dans le carnet de garantie</br>
+                </section>
 
-                    GOLD: garantie 24 mois
-
-                    Véhicules d'occasion toutes marques de moins de 2 ans et moins de 30.000 km
-
-                    SILVER: garantie 12 mois
-
-                    véhicules de 2 à 7 ans - 150.000 km*
-
-                    BRONZE: garantie 12 mois
-
-                    véhicules jusqu'à 10 ans - 150.000 km*
-
-                    * Voir conditions dans le carnet de garantie
-
-                    Peugeot, Citroën, Opel ou DS Automobiles? Une assurance sur mesure de votre voiture
-                    Que votre voiture soit neuve ou d’occasion, vous souhaitez lui offrir la protection la plus adaptée. Vous cherchez à bénéficier des meilleures conditions grâce à des tarifs en parfaite adéquation avec votre situation. On vous propose plusieurs formules d'assurance, assorties de nombreuses garanties, destinées à protéger parfaitement votre voiture, vous-même et les membres de votre famille. C’est vous qui choisissez la manière dont vous souhaitez assurer votre voiture d’occasion VDC Car.
-
-                    Car-Pass
-                    Chaque voiture d'occassion d'origine belge qui est vendue chez nous dispose d'un car-pass.
-
-                    Un Car-Pass est un document qui reproduit l'historique kilométrique d'un véhicule. Il mentionne les kilométrages connus et la date à laquelle ils ont été relevés. Vous avez donc une idée de l'historique kilométrique du véhicule et vous pouvez ainsi mieux vérifier au moment de la vente si le nombre de kilomètres indiqué au compteur kilométrique est véritable.
+                <section id="para2">
+                <h5 class="nav-link text-primary text-center ">Peugeot, Citroën, Opel ou DS Automobiles? Une assurance sur mesure de votre voiture</h5>
+                    Que votre voiture soit neuve ou d’occasion, vous souhaitez lui offrir la protection la plus adaptée.
+                    Vous cherchez à bénéficier des meilleures conditions grâce à des tarifs en parfaite adéquation avec votre situation.
+                    On vous propose plusieurs formules d'assurance, assorties de nombreuses garanties, destinées à protéger parfaitement votre voiture,
+                    vous-même et les membres de votre famille. C’est vous qui choisissez la manière dont vous souhaitez assurer votre voiture d’occasion Auto Teugol Occasion.</br>
                 </p>
+                </section>
 
+                <section id="para3">
+                <h5 class="nav-link text-primary text-center ">Car-Pass</h5>
+                    <p>
+                        Chaque voiture d'occassion d'origine belge qui est vendue chez nous dispose d'un car-pass.</br>
+                        Un Car-Pass est un document qui reproduit l'historique kilométrique d'un véhicule.
+                        Il mentionne les kilométrages connus et la date à laquelle ils ont été relevés.
+                        Vous avez donc une idée de l'historique kilométrique du véhicule et vous pouvez ainsi mieux
+                        vérifier au moment de la vente si le nombre de kilomètres indiqué au compteur kilométrique est véritable.</p>
+                </p>
+                </section>
             </div>
-            <div class="card-footer text-muted">
-                2 days ago
+
+            <div class="card text-muted bg-warning text-center ">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="./admin/images/hp.png" alt="" width="5%" height="5%">
+                        </a>
+                    </div>
+
             </div>
         </div>
     </div>

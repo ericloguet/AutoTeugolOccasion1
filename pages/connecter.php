@@ -15,28 +15,52 @@
 </head>
 <body>
 <div class="container">
-    <div class="card bg-warning bg-gradient">
+    <div class="card bg-light bg-gradient">
         <div class="card">
             <div class="card-header">
-                <div class="card-dark bg-light bg-gradient">
+                <div class="card-dark bg-gradient">
                     <nav class="nav nav-pills nav-fill">
-                        <a class="navbar-logo" href="#"><img src="./admin/icone .jpg" width="120" height="65" alt="icone"/></a></li></a>
-                        <h5 class=" nav-link text-dark">Auto Teugol Occasion</h5>
+                        <h5 class="display-6 nav-link text-dark bg-warning">Auto Teugol Occasion</h5>
                     </nav>
                 </div>
             </div>
             <div class="card-body">
-                <h5 class="card-title text-danger text-center">Se connecter</h5>
-                <p class="card-text">
-                </p>
-
-                <a href="./pages/accueil.php" class="btn btn-primary">Go somewhere</a>
+                <div class="card bg-light">
+                    <h5 class="card-header text-center bg-light"><img src="./admin/images/Profil.jpg" alt="" width="100" height="100"></h5>
+                    <div class="card-body bg-light">
+                        <form class=" bg-light ">
+                            <div class="mb-3 row">
+                                <label for="inputPseudo" class="col-sm-2 col-form-label bg-warning text-center">Login</label>
+                                <div class="col-sm-10">
+                                    <input type="pseudo" class="form-control" id="inputPseudo">
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="exampleDropdownFormPassword2" class="col-sm-2 col-form-label bg-warning text-center">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <small class="form-check-label text-dark" for="exampleCheck1">Se souvenir de moi</small>
+                                </div>
+                                <ol class="breadcrumb">
+                                    <small class="breadcrumb-item"> Avez-vous un compte ? <a href="./index_.php?page=inscription.php"> Inscrivez-vous </a></small>
+                                </ol>
+                                <div class="d-grid gap-2 col-2 mx-auto">
+                                    <button class="btn btn-info text-light rounded-pill" type="button">Connexion</button>
+                                </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="card-footer text-muted">
-                2 days ago
-                <a class="navbar-brand" href="#">
-                    <img src="./admin/images/Twitter.png" alt="" width="28" height="28">
-                </a>
+            <div class="card text-muted bg-warning text-center ">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./admin/images/hp.png" alt="" width="5%" height="5%">
+                    </a>
+                </div>
+
             </div>
         </div>
     </div>

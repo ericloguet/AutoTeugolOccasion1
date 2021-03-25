@@ -13,7 +13,7 @@
         <ul class="nav nav-pills">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <small class="breadcrumb-item"><a href="#">Accueil</a></small>
+                    <small class="breadcrumb-item"><a href="./index_.php?page=accueil.php">Accueil</a></small>
                     <small class="breadcrumb-item"><a href="#">Conditions générales</a></small>
                     <small class="breadcrumb-item"><a href="#">Cookies</a></small>
                 </ol>
@@ -34,43 +34,13 @@
                             </p>
                             <button class="btn btn-dark text-light rounded-pill" type="button"> Contactez-nous</button>
                         </li>
-                        <li class="nav-item dropdown">
-                            <p>
-                                <button class="btn btn-secondary text-warning rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                    CONTACTEZ-NOUS VIA WHATSAPP</br> <img src="./admin/images/whatsap.png" alt="" width="25" height="25"> <strong>+32428521007</strong>
-                                </button>
-                            </p>
-                            <div class="collapse" id="collapseExample">
-                                <div class="card card-body">
-                                    <h5>Un expert vous rappelle !</h5>
-                                    Laissez-nous votre numéro et nous vous rappellerons dès que possible.
-                                    <form class="row g-3">
-                                        <div class="col-auto">
-                                            <label for="inputTelephone2" class="visually-hidden">Telephone</label>
-                                            <input type="tel" class="form-control" id="inputTelephone2" placeholder="Télephone">
-                                        </div>
-                                        <div class="col-auto">
-                                            <button type="submit" class="btn btn-warning mb-3 rounded-pill"><img src="./admin/images/valide.png" alt="" width="25" height="25"></button>
-                                        </div>
-                                    </form>
-                                        <div class="mb-3 form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label " for="exampleCheck1"><p class="card-text">
-                                                <small class="text-muted">Je marque mon accord sur la <a href="#">politique de confidentialité</a></small></p></label>
-                                         </div>
 
-
-                                        <p class="card-text"><small class="text-muted">Ce site est protégé par reCAPTCHA et <a href="#">les règles de confidentialités</a> et</br><a href="#">les conditions d'utilisation</a> de Google s'appliquent.</small></p>
-                                        <img src="./admin/images/co.jpg" alt="" width="250" height="120">
-                                    </label>
-                                </div>
-                            </div>
-                        </li>
                     </ul>
 
             </div>
-            <small class="tex-card text-center text-dark"> © 2021 COPYRIGHT Editeur responsable <strong>Eric Hervé LOGUET</strong></small>
+
         </div>
+        <small class="nav justify-content-end text-dark"> © 2021 COPYRIGHT Editeur responsable <strong>Eric H. LOGUET</strong></small>
     </div>
 </div>
 <!-- Just an image -->

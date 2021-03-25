@@ -1,8 +1,3 @@
-<?php
-$liste = new ThemeBD($cnx);
-$themes = $liste->getTheme();
-//$nbr = count($themes);
-?>
 
 <div class="container">
     <div class="card text-center bg-warning bg-gradient">
@@ -10,7 +5,31 @@ $themes = $liste->getTheme();
             <img src="./admin/images/cnx.jpg" class="d-block w-100" alt="...">
         </div>
 
-        <div class="card-body">
+
+        <?php
+        $mq = new ThemeBD($cnx);
+        $liste_mq = $mq->getTheme();
+        $nbr_mq = count($liste_mq);
+        ?>
+        <div class="container">
+
+
+            <h1 class="display-6 text-center">Nos marques </h1>
+
+            <div class="navbar navbar-light bg-light rounded-pill">
+                <div class="container">
+                    <?php
+                    for ($i = 0; $i < $nbr_mq; $i++) {
+                        ?>
+                        <a class="navbar-brand" href="index_.php?pages=garage.php&id_marque=<?php print $liste_mq[$i]->id_marque; ?>" class="lien">
+                            <img src="./admin/images/<?php print $liste_mq[$i]->logo; ?>" alt="..." width="35" height="35">
+                        </a>
+                        <?php
+                    }
+                    ?>
+                </div>
+
+      <!--  <div class="card-body">
             <nav class="navbar navbar-expand-lg navbar-light bg-light bg-gradient rounded-pill">
                 <div class="container-fluid">
                     <a class="navbar-brand"> DECOUVREZ PLUS</a>
@@ -91,12 +110,11 @@ $themes = $liste->getTheme();
                     </div>
                 </div>
             </nav>
-
-
         </div>
-        <h1 class="display-6">Nos véhicules récemment soldés</h1>
-    </div>
+        -->
 
+    </div>
+            <h1 class="display-6">Nos véhicules récemment soldés</h1>
     <div class="card-group">
         <div class="card">
 
@@ -324,7 +342,7 @@ $themes = $liste->getTheme();
                     <small class="form-check-label text-light" for="exampleCheck1">Se souvenir de moi</small>
                 </div>
                     <ol class="breadcrumb">
-                    <small class="breadcrumb-item"> Avez-vous un compte ? <a href="#"> Inscrivez-vous </a></small>
+                    <small class="breadcrumb-item"> Avez-vous un compte ? <a href="./index_.php?page=inscription.php"> Inscrivez-vous </a></small>
                     </ol>
                     <div class="d-grid gap-2 col-6 mx-auto">
                         <button class="btn btn-info text-light rounded-pill" type="button">Connexion</button>
